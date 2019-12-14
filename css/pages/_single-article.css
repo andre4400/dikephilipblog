@@ -1,0 +1,51 @@
+.article-header {
+  max-width: 80%;
+  margin: 0 auto;
+  margin-bottom: 3em; }
+  .article-header h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-weight: 900 !important; }
+  .article-header .date p {
+    font-style: italic; }
+
+.article-img-box {
+  max-width: 70%;
+  height: 200px;
+  margin-bottom: 3em; }
+
+.single-post .article-contents {
+  max-width: 60%; }
+  .single-post .article-contents p {
+    margin-bottom: 1.5em;
+    font-family: 'Lora', Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px; }
+
+.img-fluid {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+@media screen and (max-width: 970px) {
+  .article-img-box {
+    margin: 0 auto;
+    margin-left: 6em; }
+  .single-post .article-contents {
+    margin: 1em 3em;
+    padding: 1em 3em; } }
+
+@media screen and (max-width: 550px) {
+  .article-img-box {
+    margin-left: 3em;
+    max-width: 80%; }
+  .single-post .article-contents {
+    max-width: 70%;
+    margin-left: 2.5em;
+    padding-left: .5em; } }
+
+@media screen and (max-width: 450px) {
+  .single-post .article-contents {
+    max-width: 100%;
+    padding-right: 0; } }

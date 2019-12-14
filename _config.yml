@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /www
+exclude: ['prepros-6.config']

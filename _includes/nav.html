@@ -1,0 +1,10 @@
+<nav >
+    <ul class="blog-menu">
+        <li class="nav-item"><a href="{{site.baseurl}}/index.html" class="nav-link {% if page.url == '/index.html' %}current{% endif %}">home</a></li>
+        <li class="nav-item"><a href="{{site.baseurl}}about.html" class="nav-link {% if page.url == '/about.html' %}current{% endif %}">About</a></li>
+        <li class="nav-item"><a href="{{site.baseurl}}index.html" class="nav-link {% if page.url == '/index.html' %}current{% endif %}">articles</a></li>
+        <li class="nav-item"><a href="{{site.baseurl}}subscribe" class="nav-link {% if page.url == '/subscribe.html' %}current{% endif %}>subscribe">subscribe</a></li>                    
+    </ul>
+</nav> 
+<button class="o-btn--primary btn-close o-btn--flat c-main-nav__toggle jsOffsiteClose">Close</button>
+<button class="o-btn--primary btn-open o-btn--flat c-main-nav__toggle jsOffsiteLauncher">Menu</button>
