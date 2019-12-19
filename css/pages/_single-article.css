@@ -42,7 +42,9 @@
     max-width: 80%; }
   .single-post .article-contents {
     max-width: 70%;
-    margin-left: 2.5em;
+    margin: unset;
+    padding: unset;
+    margin-left: .5em;
     padding-left: .5em; } }
 
 @media screen and (max-width: 450px) {

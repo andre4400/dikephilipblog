@@ -1,3 +1,8 @@
-markdown: redcarpet
-baseurl: /dikephilipblog
-exclude: ['prepros-6.config']
+markdown: kramdown
+baseurl: /www
+paginate: 5
+paginate_path: "/page:num/"
+exclude: [
+    'prepros-6.config'
+  ]
+plugins: [jekyll-paginate]

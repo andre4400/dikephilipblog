@@ -1,88 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Dike Philip is a political scientist. He shares his thouhgt about current political situations in his local environment being imo state">
-
-    <title>Welcome, Dike Philip Blog</title>
-
-    
-    <!-- Favicon  Blog Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon/IMG-20191202-WA0000.ico" />
-
-    <link rel="stylesheet" href="{{site.baseurl}}/css/vendor/bootstrap-grid.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/css/styles.css">
-
-    <!-- Fonts  -->
-    <link rel="stylesheet" href="css/vendor/fonts/css/font-awesome.css">
-
-    <script defer src="js/hamMenu.js"></script>
-</head>
+    {% include head.html %}
 <body>
-
-   
-
     <div class="content-wrapper">
-        <header id="header" class="header">
 
-                <div class="top-header">
-                    <div class="top-header-content">
-                        <a href="index.html"><h1 class="title">DIKE PHILIP BLOG</h1></a> 
-                        <p class="content-body">
-                            lets talk local politics 
-                            <!-- and it is affecting our every day life in this country called Nigeria  -->
-                        </p>
-                    </div>
-                </div> 
-            <!-- <div class="container">           -->
-                    {% include nav.html%}
-            
-
-            <!-- </div> -->
-
-        </header>
-
+        {% include header.html %}
         {{content}}
 
     </div>
 
-    <footer id="footer" class="footer">
-        <div class="container">
-            <div class="footer_items">
-                <div class="social-links-wrap">
-                    <h5>follow me on...</h5>
-                    <ul class="social-links">
-                        <li class="social-link">
-                            <a href="https://www.facebook.com/dikephilip/home-page">
-                                <img src="img/iconfinder-800x337 - facebook.svg" alt="facebook-svg" class="img-fluid">
-                            </a>
-                        </li>
-
-                        <li class="social-link">
-                            <a href="https://www.facebook.com/dikephilip/home-page">
-                                <img src="img/iconfinder-800x337 - twitter.svg" alt="facebook-svg" class="img-fluid">
-                            </a>
-                        </li>
-                        
-                        <li class="social-link">
-                            <a href="https://www.facebook.com/dikephilip/home-page">
-                                <img src="img/iconfinder-800x337 -instagram.svg" alt="facebook-svg" class="img-fluid">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-
-
-                <div class="copyright">
-                    <p> &copy; 2019, Proudly Nwangele</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+    {% include footer.html %}
 </body>
 </html>

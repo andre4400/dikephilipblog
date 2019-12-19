@@ -1,0 +1,38 @@
+.img-box{
+    max-width: 400px;
+    flex-grow: 1;
+}
+/* header */
+.top-header .top-header-content .title{
+    letter-spacing: -2px;
+}
+/* nav */
+.blog-menu .nav-item{
+    letter-spacing: .5px;
+    padding: 0;
+}
+/* post articles display */
+.article-link{
+    display: block;
+    position: relative;
+}
+.img-wrapper{
+    float: left;
+    margin: 2px 7.14286% 8px 0;
+    width: 30%;
+    /* padding-top: 25.89286%; */
+}
+.article-content h4{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+.post-content a:hover,
+.post-content a:visited{
+    color: forestgreen;
+}
+
+/* pagination */
+.pagination_nav .nav_links .pagination_page-num{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
