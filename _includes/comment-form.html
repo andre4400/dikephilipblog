@@ -1,5 +1,5 @@
 <div class="container">   
-    <form class="comment-form" method="" action="">
+    <form class="comment-form" id="comment-form" method="" action="">
         <h4>Leave a reply</h4>
         <label for="comment-box" class="comment-box" class="user-requirement">
             <textarea name="comment" id="comment-box" class="comment-textbox"  placeholder="Place Comment..." required></textarea>
@@ -7,17 +7,12 @@
 
         <label for="user" class="user-requirement">
             Your Name:
-            <input type="text" name="name" id="user" placeholder="Enter your name here" required>
+            <input type="text" name="name" id="name" placeholder="Enter your name here" required>
         </label>
         
         <label for="user" class="user-requirement">
             Your Email:
-            <input type="email" name="email" id="user" placeholder="jamesbonde@example.com" required>
-        </label>
-                                    
-        <label for="website" class="user-requirement">
-            Enter Website:
-            <input type="url" name='website' id="website" placeholder="www.example.com">
+            <input type="email" name="email" id="email" placeholder="jamesbonde@example.com" required>
         </label>
         <button class="submit" type="submit">Post comment</button>
     </form>

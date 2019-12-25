@@ -1,0 +1,38 @@
+<div class="comments">
+
+    <!-- Title, with comment count -->
+    <h2 class="comment-title"><span id="comments-count comment-title"></span> Comments</h2 c>
+
+    <!-- Display comments here -->
+    <ul id="comments-list" class="comments-list"></ul>
+  
+    <!-- Reference to return comment form after this span, when the reply form is cancelled -->
+    <span id="comment-container"></span>
+
+    <!-- Comment form -->
+    <form id="comment" style="display:block;" class="comment-form">
+      <h4 id="comment-form-title">Leave a comment</h4>
+      <label for="comment-box" class="comment-box user-requirement"></label>
+      <textarea id="message" type="text" placeholder="Comment (HTML supported)" class="comment-textbox" required></textarea>
+      <label for="name" class="user-requirement"> 
+          Your Name
+      <input id="name" type="text" placeholder="Obi Ajayi"  required>
+      </label>
+      <label for="email" class="user-requirement">
+          Your Email
+      <input id="email" type="email" placeholder="burna@example.com" required>
+      </label>
+      <button class="btn submit" type="submit" name="action">Post Comment</button>
+    </form>
+
+    <!-- Reply form -->
+    <form id="reply" style="display:none;">
+      <h3 id="reply-form-title" class="comment-form-title"></h3>
+      <div id="cancel-reply"><a href="#!" class="cancel-reply-link">Cancel Reply</a></div>
+      <textarea id="message" type="text" placeholder="Comment (HTML supported)" class="comment-textbox" required></textarea>
+      <input id="name" type="text" placeholder="Name" class="user-requirement" required>
+      <input id="email" type="email" placeholder="Email" class="user-requirement" required>
+      <button class="btn submit" type="submit" name="action">Post Comment</button>
+    </form>
+
+</div>
