@@ -5,7 +5,7 @@
     <div class="nav_links">
 
         {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path |  prepend: site.baseurl | replace: '//', '/'}}" class="prev pagination_page-num">&laquo; Prev Page</a>
+            <a href="{{ paginator.previous_page_path |  prepend:  | replace: '//', '/'}}" class="prev pagination_page-num">&laquo; Prev Page</a>
         {%else%}
             <span></span>
         {% endif %}  
@@ -17,7 +17,7 @@
             {% elsif page == 1 %}
             <a href="/" class="pagination_page-num">{{ page }}</a>
             {% else %}
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination_page-num">{{ page }}</a>
+            <a href="{{ site.paginate_path | prepend:  | replace: '//', '/' }}" class="pagination_page-num">{{ page }}</a>
             {% endif %}
         {% endfor %}
         
@@ -34,7 +34,7 @@
 
 
         {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path |  prepend: site.baseurl | replace: '//', '/'}}" class="prev pagination_page-num"> Next &raquo;</a>
+            <a href="{{ paginator.next_page_path |  prepend:  | replace: '//', '/'}}" class="prev pagination_page-num"> Next &raquo;</a>
         {%else%}
             <span> </span>
         {% endif %}  
