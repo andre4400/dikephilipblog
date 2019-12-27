@@ -10,7 +10,7 @@ title: Welcome, Dike Philip Blog
                 <article class='all-post'>
                 {% for posts in paginator.posts %}
                     <article class="post-content o-words">
-                    <a href="{{site.baseurl}}/{{ posts.url}}"  class="article-link" >                        
+                    <a href="{{site.baseurl}}{{ posts.url}}"  class="article-link" >                        
                         <figure class="img-box img-wrapper">
                             <img src="{{site.baseurl}}/img/{{posts.image}}" alt="blog-pics" class="img-fluid">
                         </figure>
